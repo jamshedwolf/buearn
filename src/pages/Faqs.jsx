@@ -4,7 +4,7 @@ function Faqs() {
     return (
         <div className="bg-[#020102]">
             {/* Title */}
-            <div className="font-bold text-center text-3xl md:text-4xl lg:text-5xl p-2 text-white text-[#9f28ff]">FAQS</div>
+            <div className="font-bold text-center text-3xl md:text-4xl lg:text-5xl p-2 text-[#9f28ff]">FAQS</div>
 
             {/* FAQ Container */}
             <div className='min-h-screen mx-10 lg:w-[50%] lg:mx-auto my-10'>
