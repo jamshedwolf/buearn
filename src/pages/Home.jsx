@@ -38,7 +38,7 @@ function Home() {
 
                 <div className="basis-1/3 order-1 lg:order-2 text-center z-[1] text-white">
                     {/* Right section with card image and minting details */}
-                    <div className="w-[300px] lg:w-[350px] shadow-lg hover:shadow-[#611d71] mx-auto rounded-[15px] p-5 h-[500px] lg:h-[550px] bg-[#611d71]">
+                    <div className="w-[300px] lg:w-[350px]  mx-auto rounded-[15px] p-5 h-[500px] lg:h-[550px] bg-[#611d71]">
                         <img src={card} alt="" className="" />
                         <p className=" p-2 fontbox">mint the token now</p>
                         <div className="">

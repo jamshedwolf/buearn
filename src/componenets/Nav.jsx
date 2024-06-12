@@ -17,9 +17,9 @@ function Nav() {
     }
 
     return (
-        <div className='relative p-5 bg-[#020102] '>
+        <div className='relative p-5  bg-[#020102] '>
             {/* Top navigation bar */}
-            <div className="flex items-center fontbox text-white justify-between">
+            <div className="flex items-center fontbox text-white justify-evenly">
                 {/* Logo */}
                 <div className="text-3xl w-[100px] md:w-[200px] z-[2]">
                     <img src={shark} alt="Logo" />
@@ -27,7 +27,7 @@ function Nav() {
 
                 {/* Desktop Menu */}
                 <div className="hidden fontbox  lg:flex font-bold items-center justify-center gap-5">
-                    <Link to="/">home</Link>
+                    <Link className='text-[#8749b4]' to="/">home</Link>
                     <Link to="/about">about</Link>
                     <Link to="/roadmap">roadmap</Link>
                     <Link to="/team">team</Link>
@@ -75,6 +75,8 @@ function Nav() {
             <div className="absolute hidden lg:block top-[-5] right-20 w-[500px] rounded-full h-[500px] bg-[#8749b4] blur-[200px]"></div>
         </div>
     );
+
+    
 }
 
 export default Nav;

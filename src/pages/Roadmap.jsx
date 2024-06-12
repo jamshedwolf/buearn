@@ -36,7 +36,7 @@ function Roadmap() {
             </div>
 
             {/* Grid layout for the phase cards */}
-            <div className="h-auto grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 max-w-[1200px] mx-auto items-center justify-center bg-[#020102]">
+            <div className="h-auto grid grid-cols-1 lg:grid-cols-3   lg:gap-12 max-w-[1200px] mx-auto items-center justify-center bg-[#020102]">
                 <div className="flex flex-col gap-8 lg:gap-[150px] place-self-center">
                     <PhaseCard />
                     <PhaseCard />

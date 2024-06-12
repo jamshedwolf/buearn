@@ -33,7 +33,7 @@ function About() {
           </div>
 
           {/* Image Content */}
-          <div className="flex items-center justify-center basis-2/3">
+          <div className="flex items-center justify-center basis-[50%]">
             <img src={capture} alt="" className="rotate-360" />
           </div>
 
