@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Brolink DEMO";
+    src: url("https://db.onlinewebfonts.com/t/34359bec84c16be942414f8200c904fb.eot");
+    src: url("https://db.onlinewebfonts.com/t/34359bec84c16be942414f8200c904fb.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/34359bec84c16be942414f8200c904fb.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/34359bec84c16be942414f8200c904fb.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/34359bec84c16be942414f8200c904fb.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/34359bec84c16be942414f8200c904fb.svg#Brolink DEMO")format("svg");
+}
+
+.fontbox{
+    font-family: "Brolink DEMO" ;
+}
