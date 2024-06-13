@@ -8,9 +8,9 @@ function PhaseCard() {
             {/* Main container for each phase card */}
             <div className="w-[300px] h-[200px] lg:w-[500px] flex lg:h-[300px]">
                 {/* Container for the card structure */}
-                <div className="w-[100px] h-[200px] lg:w-[200px] lg:h-[300px] border-[5px] border-r-[0px] rounded-l-[20px] border-[#8749b4]"></div>
+                <div className="w-[100px] h-[200px] lg:w-[200px] lg:h-[300px] border-[5px] border-r-[0px] rounded-l-[20px] border-[#9f28ff]"></div>
                 <div className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] border opacity-0"></div>
-                <div className="absolute left-[10px] lg:left-[20px] w-[250px] h-[180px] top-[10px] p-5 lg:w-[460px] lg:top-[20px] lg:p-10 rounded-[10px] lg:rounded-[20px] text-white pt-0 border-[#8749b4] lg:h-[260px] border">
+                <div className="absolute left-[10px] lg:left-[20px] w-[250px] h-[180px] top-[10px] p-5 lg:w-[460px] lg:top-[20px] lg:p-10 rounded-[10px] lg:rounded-[20px] text-white pt-0 border-[#9f28ff] lg:h-[260px] border">
                     {/* Content of the card */}
                     <div className="font-bold text-center builder lg:text-2xl p-2 font-ArialMT">Phase 2</div>
                     <div className="flex flex-col gap-2">
@@ -49,12 +49,12 @@ function Roadmap() {
                         <div className="h-[450px] border-4 border-dotted absolute left-[50%] top-[25px] border-l-[0px] border-[#8749b4]"></div>
                         <div className="h-[1px] w-[70px] border-4 border-dotted absolute left-[65px] top-[55px] border-b-[0px] border-[#8749b4]"></div>
                         <div className="h-[1px] w-[70px] border-4 border-dotted absolute left-[65px] bottom-[55px] border-b-[0px] border-[#8749b4]"></div>
-                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#8749b4] top-[43px] left-[50px]"></div>
-                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#8749b4] top-[43px] right-[50px]"></div>
-                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#8749b4] top-[20px] right-[83px]"></div>
-                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#8749b4] bottom-[43px] left-[50px]"></div>
-                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#8749b4] bottom-[43px] right-[50px]"></div>
-                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#8749b4] bottom-[20px] right-[83px]"></div>
+                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#9f28ff] top-[43px] left-[50px]"></div>
+                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#9f28ff] top-[43px] right-[50px]"></div>
+                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#9f28ff] top-[20px] right-[83px]"></div>
+                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#9f28ff] bottom-[43px] left-[50px]"></div>
+                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#9f28ff] bottom-[43px] right-[50px]"></div>
+                        <div className="w-[30px] h-[30px] rounded-full absolute bg-[#9f28ff] bottom-[20px] right-[83px]"></div>
                     </div>
                 </div>
 

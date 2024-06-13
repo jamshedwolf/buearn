@@ -12,7 +12,7 @@ function Team() {
             {/* Main container for the team section */}
             <div className="text-center text-3xl font-bold p-20 md:text-4xl lg:text-5xl text-white text-center p-5">
                 {/* Title for the team section */}
-                MEET OUR <span className='text-[#8749b4]'>TEAM</span>
+                MEET OUR <span className='text-[#9f28ff]'>TEAM</span>
             </div>
             <div className="md:p-10 p-5 flex  flex-col lg:flex-row justify-center items-center gap-5">
                 {/* Container for the team member images */}

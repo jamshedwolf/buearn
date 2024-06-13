@@ -14,7 +14,7 @@ function About() {
         
         {/* Title Section */}
         <div className="text-center fontbox text-3xl mt-5  p-10 md:text-4xl lg:text-5xl text-white">
-          about <span className='text-[#8749b4]'>us</span>
+          about <span className='text-[#9f28ff]'>us</span>
         </div>
 
         {/* Content Section */}
@@ -22,7 +22,7 @@ function About() {
 
           {/* Text Content */}
           <div className="basis-[44%] p-5 lg:p-0">
-            <p className="text-3xl text-[#8749b4]  fontbox md:p-5 pb-0 ">buEARN</p>
+            <p className="text-3xl text-[#9f28ff]  fontbox md:p-5 pb-0 ">buEARN</p>
             <p className="text-white md:p-5 builder">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia, corrupti soluta eius rerum fuga, sint eaque voluptas quod enim tempore numquam maxime quidem voluptatum voluptatem eligendi doloremque unde? Eius consequuntur rem arch.
             </p>
