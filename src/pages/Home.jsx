@@ -27,10 +27,10 @@ function Home() {
                     </p>
                     <div className="flex gap-4">
                         {/* Buttons for Opensea and Whitepaper */}
-                        <button className='h-[50px] hover:bg-[#824ab5] hover:border-0  text-[10px] lg:text-[15px] flex gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
+                        <button className='h-[50px] hover:bg-[#824ab5] hover:border-0  text-[10px] lg:text-[12px] flex gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
                             <img src={open} alt="" /> BUY IT ON OPENSEA
                         </button>
-                        <button className='h-[50px] hover:bg-[#824ab5] hover:border-0 text-[10px] lg:text-[15px] flex gap-1 lg:gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
+                        <button className='h-[50px] hover:bg-[#824ab5] hover:border-0 text-[10px] lg:text-[12px] flex gap-1 lg:gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
                             <img src={paper} alt="" /> WHITEPAPER
                         </button>
                     </div>
