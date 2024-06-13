@@ -8,7 +8,7 @@ import coin from "../assets/coin.png";
 
 function Team() {
     return (
-        <div className='relative bg-[#020102] py-auto min-h-[90vh]'>
+        <div className='relative bg-[#020102] py-auto xl:p-20 '>
             {/* Main container for the team section */}
             <div className="text-center text-3xl font-bold p-20 md:text-4xl lg:text-5xl text-white text-center p-5">
                 {/* Title for the team section */}

@@ -7,7 +7,7 @@ function Faqs() {
             <div className="font-bold text-center text-3xl md:text-4xl lg:text-5xl p-2 text-[#9f28ff]">FAQS</div>
 
             {/* FAQ Container */}
-            <div className='min-h-screen mx-10 lg:w-[50%] lg:mx-auto my-10'>
+            <div className='max-h-screen mx-10 lg:w-[50%] lg:mx-auto my-10'>
                 {/* FAQ Items */}
                 {[...Array(8)].map((_, index) => (
                     <div key={index} className="text-white collapse mt-5 bg-[#020102] collapse-plus border shadow-lg border-2 border-[#152329]">

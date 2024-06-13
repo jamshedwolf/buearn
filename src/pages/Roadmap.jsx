@@ -25,7 +25,7 @@ function PhaseCard() {
 
 function Roadmap() {
     return (
-        <div className="relative h-auto lg:h-[170vh] p-10 bg-[#020102]">
+        <div className="relative h-auto  p-10 bg-[#020102]">
             {/* Main container for the roadmap section */}
             <div className="flex flex-col items-center justify-center lg:p-5">
                 {/* Header section for the roadmap */}

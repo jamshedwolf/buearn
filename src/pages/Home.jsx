@@ -10,9 +10,9 @@ import Faqs from './Faqs'; // Importing the Faqs component
 
 function Home() {
     return (
-        <div className="flex flex-col ">
+        <div className="flex flex-col bg-[#020102] ">
             {/* Main container for the Home component */}
-            <div className='flex gap-10 pt-10 flex-col lg:flex-row min-h-screen bg-[#020102] justify-center items-center'>
+            <div className='flex gap-10 lg:pt-20 flex-col max-w-7xl mx-auto lg:flex-row max-h-screen  justify-center items-center'>
                 {/* Container for the main content area */}
                 <div className="basis-1/3  order-2 lg:order-1 p-5">
                     {/* Left section with welcome text and buttons */}

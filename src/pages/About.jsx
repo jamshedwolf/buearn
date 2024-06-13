@@ -7,9 +7,9 @@ import heli from "../assets/heli.png";
 
 function About() {
   return (
-    <div className='bg-[#020102] relative'>
+    <div className='bg-[#020102] relative  lg:p-20'>
       {/* Main container with padding and minimum height */}
-      <div className="min-h-screen lg:p-20">
+      <div className="max-h-screen mx-auto xl:max-w-[1400px] lg:p-20">
         
         {/* Title Section */}
         <div className="text-center fontbox text-3xl mt-5  p-10 md:text-4xl lg:text-5xl text-white">
