@@ -25,7 +25,7 @@ function Footer() {
                                 {/* Shark logo image */}
                                 <img src={shark} alt="Shark Logo" className="w-60" />
                             </div>
-                            <div>
+                            <div className='builder font-ArialMT'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non quia vel sapiente asperiores dignissimos.
                             </div>
                         </div>

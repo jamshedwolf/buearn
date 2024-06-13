@@ -4,7 +4,10 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
+  theme:{
+    fontFamily :{
+      ArialMT : ["ArialMT"]
+    } ,
     extend: { screens: {
       'sm': '640px',
       'md': '768px',

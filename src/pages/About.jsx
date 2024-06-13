@@ -4,6 +4,7 @@ import a1 from "../assets/a1.png";
 import a2 from "../assets/a2.png";
 import capture from "../assets/A.svg";
 import heli from "../assets/heli.png";
+import "../App.css"
 
 function About() {
   return (
@@ -21,11 +22,11 @@ function About() {
 
           {/* Text Content */}
           <div className="basis-1/3 p-10">
-            <p className="text-3xl text-[#8749b4] fontbox md:p-5 pb-0 ">buEARN</p>
-            <p className="text-white md:p-5">
+            <p className="text-3xl text-[#8749b4]  fontbox md:p-5 pb-0 ">buEARN</p>
+            <p className="text-white md:p-5 font-ArialMT builder">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia, corrupti soluta eius rerum fuga, sint eaque voluptas quod enim tempore numquam maxime quidem voluptatum voluptatem eligendi doloremque unde? Eius consequuntur rem arch.
             </p>
-            <p className="text-white md:p-5">
+            <p className="text-white builder font-ArialMT md:p-5">
               Lorem ipsum dolor sit amet consectetur adipisicing 
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia dolorem quae hic unde autem similique. Odit quae voluptatum nisi iste harum recusandae. Eaque iste tempora a ratione, asperiores perferendis.
               elit. Et quia, corrupti soluta eius rerum fuga, sint eaque voluptas quod enim tempore numquam maxime quidem voluptatum voluptatem eligendi doloremque unde? Eius consequuntur rem arch.

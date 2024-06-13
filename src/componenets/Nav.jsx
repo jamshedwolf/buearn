@@ -17,7 +17,7 @@ function Nav() {
     }
 
     return (
-        <div className='relative p-5  bg-[#020102] '>
+        <div className='relative p-5   bg-[#020102] '>
             {/* Top navigation bar */}
             <div className="flex items-center fontbox text-white justify-evenly">
                 {/* Logo */}
@@ -71,8 +71,8 @@ function Nav() {
             </div>
 
             {/* Decorative Blurred Circles */}
-            <div className="absolute hidden lg:block top-0 left-0 w-[300px] rounded-full h-[400px] bg-[#8749b4] blur-[150px]"></div>
-            <div className="absolute hidden lg:block top-[-5] right-20 w-[500px] rounded-full h-[500px] bg-[#8749b4] blur-[200px]"></div>
+
+          
         </div>
     );
 

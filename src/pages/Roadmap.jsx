@@ -1,4 +1,6 @@
 import React from 'react';
+import "../App.css"
+
 
 function PhaseCard() {
     return (
@@ -10,10 +12,10 @@ function PhaseCard() {
                 <div className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] border opacity-0"></div>
                 <div className="absolute left-[10px] lg:left-[20px] w-[250px] h-[180px] top-[10px] p-5 lg:w-[460px] lg:top-[20px] lg:p-10 rounded-[10px] lg:rounded-[20px] text-white pt-0 border-[#8749b4] lg:h-[260px] border">
                     {/* Content of the card */}
-                    <div className="font-bold text-center lg:text-2xl p-2">Phase 2</div>
+                    <div className="font-bold text-center builder lg:text-2xl p-2 font-ArialMT">Phase 2</div>
                     <div className="flex flex-col gap-2">
                         <p className='lg:text-3xl  fontbox'>testnet</p>
-                        <p className='text-[12px] lg:text-[18px]'>
+                        <p className='text-[12px] builder lg:text-[18px] font-ArialMT'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate nostrum veritatis amet dolores, inventore at sit est. Nobis, magnam vitae!
                         </p>
                     </div>
@@ -30,7 +32,7 @@ function Roadmap() {
             <div className="flex flex-col items-center justify-center lg:p-5">
                 {/* Header section for the roadmap */}
                 <div className="text-center text-3xl md:text-4xl lg:text-5xl text-white fontbox p-5">road<span className="text-[#9f28ff]">map </span>  </div>
-                <div className="text-center text-[12px] lg:text-[18px] lg:p-5 text-white font-semibold">
+                <div className="text-center builder text-[12px] lg:text-[18px] lg:p-5 text-white font-semibold">
                     The largest and Unique super rare NFT Marketplace <br />For Crypto collections
                 </div>
             </div>

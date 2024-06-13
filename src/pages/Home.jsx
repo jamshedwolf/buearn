@@ -7,19 +7,20 @@ import Roadmap from './Roadmap'; // Importing the Roadmap component
 import Team from './Team'; // Importing the Team component
 import Footer from './Footer'; // Importing the Footer component
 import Faqs from './Faqs'; // Importing the Faqs component
+import "../App.css"
 
 function Home() {
     return (
-        <div className="flex flex-col bg-[#020102] ">
+        <div className="flex  flex-col px-10 relative z-[10]  bg-[#020102] ">
             {/* Main container for the Home component */}
-            <div className='flex gap-10 lg:pt-20 flex-col max-w-7xl mx-auto lg:flex-row max-h-screen  justify-center items-center'>
+            <div className='flex gap-10 mt-[100px]  flex-col max-w-7xl mx-auto lg:flex-row min-h-screen  justify-center items-center'>
                 {/* Container for the main content area */}
                 <div className="basis-1/3  order-2 lg:order-1 p-5">
                     {/* Left section with welcome text and buttons */}
                     <div className="text-3xl lg:text-5xl font-bold text-white z-[10]  ">
                         WELCOME TO THE <span className=' text-center fontbox text-[#8749b4]'>buEARN</span>
                     </div>
-                    <p className="text-white mt-10 md:p-5">
+                    <p className="text-white mt-10 font-ArialMT builder md:p-5">
                         {/* Placeholder text */}
                         Lorem ipsum dolor sit amet consectetur adipisicing
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia dolorem quae hic unde autem similique. Odit quae voluptatum nisi iste harum recusandae. Eaque iste tempora a ratione, asperiores perferendis.
@@ -27,7 +28,7 @@ function Home() {
                     </p>
                     <div className="flex gap-4">
                         {/* Buttons for Opensea and Whitepaper */}
-                        <button className='h-[50px] hover:bg-[#824ab5] hover:border-0  text-[10px] lg:text-[12px] flex gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
+                        <button className='h-[50px] font-ArialMT hover:bg-[#824ab5] hover:border-0  text-[10px] lg:text-[12px] flex gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
                             <img src={open} alt="" /> BUY IT ON OPENSEA
                         </button>
                         <button className='h-[50px] hover:bg-[#824ab5] hover:border-0 text-[10px] lg:text-[12px] flex gap-1 lg:gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
@@ -36,18 +37,18 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="basis-1/3 order-1 lg:order-2 text-center z-[1] text-white">
+                <div className="basis-1/3 order-1 lg:order-2 text-center  text-white">
                     {/* Right section with card image and minting details */}
-                    <div className="w-[300px] lg:w-[350px]  mx-auto rounded-[15px] p-5 h-[500px] lg:h-[550px] bg-[#611d71]">
+                    <div className="w-[300px] font-ArialMT lg:w-[350px]  mx-auto rounded-[15px] z-[40] p-5 h-[500px] lg:h-[550px] bg-[#611d71]">
                         <img src={card} alt="" className="" />
                         <p className=" p-2 fontbox">mint the token now</p>
                         <div className="">
                             {/* Minting information */}
-                            <div className="flex items-center mt-4 justify-between">
+                            <div className="flex builder font-ArialMT items-center mt-4 justify-between">
                                 <p>Public</p>
-                                <p>price: 0.5 SOL</p>
+                                <p>price: 0.5 ETH</p>
                             </div>
-                            <div className="flex items-center mt-4 justify-between">
+                            <div className="flex builder font-ArialMT items-center mt-4 justify-between">
                                 <p>remaining/Max supply</p>
                                 <p>300/400</p>
                             </div>
@@ -55,6 +56,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
+                <div className="absolute hidden lg:block top-0 left-0 w-[300px] rounded-full h-[400px] bg-[#8749b4] blur-[150px]"></div>
+                <div className="absolute hidden z-[-1] lg:block top-[-5] right-20 w-[500px] rounded-full h-[500px] bg-[#8749b4] blur-[200px]"></div>
             </div>
 
             {/* Other sections/components of the home page */}
