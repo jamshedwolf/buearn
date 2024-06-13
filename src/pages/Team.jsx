@@ -14,21 +14,21 @@ function Team() {
                 {/* Title for the team section */}
                 MEET OUR <span className='text-[#8749b4]'>TEAM</span>
             </div>
-            <div className="md:p-10 p-5 flex flex-col lg:flex-row justify-center items-center gap-5">
+            <div className="md:p-10 p-5 flex  flex-col lg:flex-row justify-center items-center gap-5">
                 {/* Container for the team member images */}
-                <div className="w-[250px]  transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
+                <div className="w-[250px] rounded-lg overflow-hidden  transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
                     <img src={img1} alt="" className="h-full w-full" />
                     {/* Team member 1 */}
                 </div>
-                <div className="w-[250px] transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
+                <div className="w-[250px] rounded-lg overflow-hidden transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
                     <img src={img2} alt="" className="h-full w-full" />
                     {/* Team member 2 */}
                 </div>
-                <div className="w-[250px] transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
+                <div className="w-[250px] rounded-lg overflow-hidden transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
                     <img src={img3} alt="" className="h-full w-full" />
                     {/* Team member 3 */}
                 </div>
-                <div className="w-[250px] transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
+                <div className="w-[248px] rounded-lg overflow-hidden transition-all lg:hover:scale-125 ease-in duration-300 delay-200 h-[350px] border border-[#da15e6]">
                     <img src={img4} alt="" className="h-full w-full" />
                     {/* Team member 4 */}
                 </div>

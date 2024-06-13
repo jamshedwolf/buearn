@@ -13,14 +13,14 @@ function Home() {
     return (
         <div className="flex  flex-col px-10 relative z-[10]  bg-[#020102] ">
             {/* Main container for the Home component */}
-            <div className='flex gap-10 mt-[100px]  flex-col max-w-7xl mx-auto lg:flex-row min-h-screen  justify-center items-center'>
-                {/* Container for the main content area */}
-                <div className="basis-1/3  order-2 lg:order-1 p-5">
+            <div className='flex gap-5 mt-[100px]  flex-col max-w-7xl mx-auto lg:flex-row min-h-screen  justify-center items-center'>
+                {/* Container for the m content area */}
+                <div className="lg:basis-1/2 lg:px-15 basis-1/3 lg:pl-[90px]  order-2 lg:order-1 p-5">
                     {/* Left section with welcome text and buttons */}
                     <div className="text-3xl lg:text-5xl font-bold text-white z-[10]  ">
                         WELCOME TO THE <span className=' text-center fontbox text-[#8749b4]'>buEARN</span>
                     </div>
-                    <p className="text-white mt-10 font-ArialMT builder md:p-5">
+                    <p className="text-white mt-10 font-ArialMT builder ">
                         {/* Placeholder text */}
                         Lorem ipsum dolor sit amet consectetur adipisicing
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia dolorem quae hic unde autem similique. Odit quae voluptatum nisi iste harum recusandae. Eaque iste tempora a ratione, asperiores perferendis.
@@ -37,7 +37,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="basis-1/3 order-1 lg:order-2 text-center  text-white">
+                <div className="lg:basis-1/2 basis-1/3 order-1 lg:order-2 text-center  text-white">
                     {/* Right section with card image and minting details */}
                     <div className="w-[300px] font-ArialMT lg:w-[350px]  mx-auto rounded-[15px] z-[40] p-5 h-[500px] lg:h-[550px] bg-[#611d71]">
                         <img src={card} alt="" className="" />
@@ -56,7 +56,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="absolute hidden lg:block top-0 left-0 w-[300px] rounded-full h-[400px] bg-[#8749b4] blur-[150px]"></div>
+                <div className="absolute hidden z-[-1] lg:block top-0 left-0 w-[300px] rounded-full h-[400px] bg-[#8749b4] blur-[150px]"></div>
                 <div className="absolute hidden z-[-1] lg:block top-[-5] right-20 w-[500px] rounded-full h-[500px] bg-[#8749b4] blur-[200px]"></div>
             </div>
 

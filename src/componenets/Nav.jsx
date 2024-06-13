@@ -17,11 +17,11 @@ function Nav() {
     }
 
     return (
-        <div className='relative p-5   bg-[#020102] '>
+        <div className='relative  p-5  bg-[#020102] '>
             {/* Top navigation bar */}
-            <div className="flex items-center fontbox text-white justify-evenly">
+            <div className="flex mx-auto  xl:max-w-[1500px] items-center fontbox text-white justify-evenly">
                 {/* Logo */}
-                <div className="text-3xl w-[100px] md:w-[200px] z-[2]">
+                <div className="text-3xl w-[100px] md:w-[250px] z-[2]">
                     <img src={shark} alt="Logo" />
                 </div>
 

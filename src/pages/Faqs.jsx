@@ -10,9 +10,11 @@ function Faqs() {
             <div className='min-h-[60vh] mx-10 lg:w-[50%] lg:mx-auto my-10'>
                 {/* FAQ Items */}
                 {[...Array(8)].map((_, index) => (
-                    <div key={index} className="text-white builder collapse mt-5 bg-[#020102] collapse-plus border shadow-lg border-2 border-[#152329]">
-                        <input className="" size={40} type="radio" name="my-accordion-3" defaultChecked />
-                        <div className="collapse-title font-ArialMT text-[10px] md:text-2xl font-medium">
+                    <div key={index} className="text-white font-ArialMT builder collapse mt-5 bg-[#020102] collapse-plus border shadow-lg border-2 border-[#152329]">
+                     
+                     
+                        <input className="text-3xl bg-pink-400" size={40} type="radio" name="my-accordion-3" defaultChecked />
+                        <div className="collapse-title  text-[10px] md:text-2xl font-medium">
                             <span className="text-[10px] font-ArialMT md:text-2xl font-medium md:mx-10 mx-5">{`0${index + 1}`}</span>
                             Lorem ipsum dolor sit amet.
                         </div>
