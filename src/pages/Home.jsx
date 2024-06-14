@@ -34,7 +34,7 @@ function Home() {
                         <button className='h-[50px] fontbox hover:bg-[#9f28ff] hover:border-0 text-[10px] lg:text-[12px] flex gap-1 lg:gap-3 items-center text-white px-4 border border-white shadow-lg mt-5 rounded-lg'>
                             <img src={paper} alt="" /> whitepaper
                         </button>
-                    </div>
+                    </div> 
                 </div>
 
                 <div className="lg:basis-1/2 basis-1/3 order-1 lg:order-2 text-center  text-white">
